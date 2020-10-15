@@ -14,6 +14,7 @@ void setup()
   Serial.begin(9600);
 
   Blynk.begin(auth, ssid, pass);
+  delay(1000);
 }
 
 void loop()
